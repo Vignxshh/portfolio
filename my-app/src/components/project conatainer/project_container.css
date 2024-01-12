@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Dancing+Script:wght@500&display=swap');
+
+.project_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 200px 0;
+    font-family: sans-serif;
+}
+
+.project_container>h1 {
+    padding-bottom: 25px;
+}
+
+.projectcontainer_project {
+    display: flex;
+    margin-top: 50px;
+}

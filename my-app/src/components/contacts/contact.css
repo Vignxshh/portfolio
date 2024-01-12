@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Dancing+Script:wght@500&display=swap');
+.contact{
+    color: white;
+    margin: 300px 0 100px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.contact_container{
+    border: 2px solid white;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    left: 510px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.contact_container>p{
+    margin-top: 40px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: left;
+}
+.contact_container>p>span{
+    color: orangered;
+}
+.contact_icon>a>button>span>.MuiSvgIcon-root{
+    color: white;
+    padding-top: 30px;
+}

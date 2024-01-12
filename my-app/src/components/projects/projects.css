@@ -1,0 +1,28 @@
+.project_collections>img{
+    width: 250px;
+    height: 200px;
+}
+.project_collections{
+    margin: 15px;
+    width: 250px;
+    height: 200px;
+    transition:transform 100ms ease-in;
+}
+.project_collections:hover{
+    color: white;
+    background-color: orangered;
+    transform: scale(1.05);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    cursor: pointer;
+}
+.project_content{
+    padding: 10px;
+}
+.project_content>h4{
+    padding-bottom: 10px;
+}
+.project_content>p{
+    font-size: 15px;
+}
